@@ -1,4 +1,4 @@
-package com.careydevelopment.configuration.root.controller;
+package com.careydevelopment.root.controller;
 
 import org.apache.log4j.Logger;
 import org.springframework.stereotype.Controller;

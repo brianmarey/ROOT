@@ -1,4 +1,4 @@
-package com.careydevelopment.configuration.root.controller;
+package com.careydevelopment.root.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
