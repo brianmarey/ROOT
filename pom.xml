@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.careydevelopment</groupId>
   <artifactId>ROOT</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.2-SNAPSHOT</version>
   <packaging>war</packaging>
   
     
@@ -13,6 +13,13 @@
   </parent>
   
     <dependencies>
+    
+    <dependency>
+		<groupId>com.careydevelopment</groupId>
+		<artifactId>mail-support</artifactId>
+		<version>[1.0,)</version>
+	</dependency>
+    
        <dependency>
            <groupId>org.twitter4j</groupId>
            <artifactId>twitter4j-core</artifactId>

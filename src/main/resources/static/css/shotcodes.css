@@ -518,6 +518,7 @@ ul.bullets-style li {
 }
 .arrow-list li:before, .arrow-list-2 li:before, .arrow-list-3 li:before, .arrow-list-4 li:before {
 	font-family:'FontAwesome';
+	font-size:14pt;
 	margin-right:8px;
 	top:0;
 	width:10px;
