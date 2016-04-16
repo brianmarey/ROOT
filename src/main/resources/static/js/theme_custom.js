@@ -16,7 +16,7 @@
 	/* ==============================================
 	Revolution Slider Plugin
 	=============================================== */
-	$(window).bind("load", function() {
+	/*$(window).bind("load", function() {
 		$(function(){
 			
 			'use strict';
@@ -37,7 +37,7 @@
 			});	//ready
 
 		});
-	});
+	});*/
 	
 	/* ==============================================
 	Isotope Masonary
@@ -273,21 +273,6 @@
 		
 		jQuery("#contact_form").validate({
 			meta: "validate",
-			submitHandler: function (form) {
-				
-				var s_name=$("#name").val();
-				var s_lastname=$("#lastname").val();
-				var s_email=$("#email").val();
-				var s_phone=$("#phone").val();
-				var s_comment=$("#comment").val();
-				$.post("contact.php",{name:s_name,lastname:s_lastname,email:s_email,phone:s_phone,comment:s_comment},
-				function(result){
-				  $('#sucessmessage').append(result);
-				});
-				$('#contact_form').hide();
-				return false;
-			},
-			/* */
 			rules: {
 				name: "required",
 				
@@ -314,8 +299,10 @@
 				phone: "Please enter a phone.",
 				comment: "Please enter a comment."
 			},
-		}); /*========================================*/
+		}); 
 	});
+	
+	
 	
 	/* ==============================================
 	Animated Skills Bar
